@@ -23,3 +23,9 @@ function appendKitten(name) {
   newKittens.push(name);
   return newKittens;
 }
+
+function prependKitten(name) {
+  let newKittens = kittens.slice();
+  newKittens.unshift(name);
+  return newKittens;
+}
